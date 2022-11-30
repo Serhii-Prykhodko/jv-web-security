@@ -8,5 +8,8 @@
 </head>
 <body>
 <a href="${pageContext.request.contextPath}/logout">Logout</a>
+<center>
+  <a href="${pageContext.request.contextPath}/index">HOME</a>
+</center>
 </body>
 </html>

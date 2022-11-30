@@ -9,7 +9,6 @@
 <body>
 <form method="post" id="login" action="${pageContext.request.contextPath}/login"></form>
 <h1 class="table_dark">Login Page</h1>
-<h4 style="color: red">${errorMsg}</h4>
 <table border="1" class="table_dark">
     <tr>
         <th>Login</th>
@@ -33,5 +32,8 @@
         </td>
     </tr>
 </table>
+<center>
+    <h2 style="color: red">${errorMsg}</h2>
+</center>
 </body>
 </html>
